@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 7.2.2"
-  spec.add_dependency 'activeadmin', '~> 3.2.5'
+  spec.add_dependency 'activeadmin', '>= 3.2.5', '< 3.4.0'
 end
